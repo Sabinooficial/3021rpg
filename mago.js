@@ -2,7 +2,7 @@
 
 function magoDaEducacao() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/mago1.png')";
+    elem.style.backgroundImage = "url('./img/mago/mago1.png')";
     setTimeout(function () {
         escolha1 = alert("Clique em ok para avançar.");
         magoFaseincial()
@@ -11,7 +11,7 @@ function magoDaEducacao() {
 // Começo do jogo.
 function magoFaseincial() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/fase1.png')";
+    elem.style.backgroundImage = "url('./img/mago/fase1.png')";
     setTimeout(function () {
         escolha1 = prompt("Escolha o seu caminho.");
         if (escolha1 == 1) {
@@ -35,7 +35,7 @@ function magoFaseincial() {
 // Inicio da Fase 1 
 function magoFase0b() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/fase1sul.png')";
+    elem.style.backgroundImage = "url('./img/mago/fase1sul.png')";
     setTimeout(function () {
         escolha1 = prompt("Escolha uma das opções.");
         if (escolha1 == 1) {
@@ -54,7 +54,7 @@ function magoFase0b() {
 // Caminho vitoria / fase 1
 function magofase1b() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/fase4.png')";
+    elem.style.backgroundImage = "url('./img/mago/fase4.png')";
     setTimeout(function () {
         setTimeout(function () {
             escolha1 = alert("Avançar");
@@ -66,7 +66,7 @@ function magofase1b() {
 }
 function magofase1c() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/fase4.0.png')";
+    elem.style.backgroundImage = "url('./img/mago/fase4.0.png')";
     setTimeout(function () {
         setTimeout(function () {
             escolha1 = alert("Você precisa derrotar os Reptilianos para poder desativar a bomba, Clique em Ok 20 vezes para derrotá-los.");
@@ -78,7 +78,7 @@ function magofase1c() {
 }
 function magofase1d() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/fase4.1.png')";
+    elem.style.backgroundImage = "url('./img/mago/fase4.1.png')";
     setTimeout(function () {
         setTimeout(function () {
             combateeducar()
@@ -89,7 +89,7 @@ function magofase1d() {
 }
 function combateeducar() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/fase4.1.png')";
+    elem.style.backgroundImage = "url('./img/mago/fase4.1.png')";
     setTimeout(function () {
         setTimeout(function () {
             while (educar < 20) {
@@ -104,7 +104,7 @@ function combateeducar() {
 }
 function magofase1vitoria() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/vitoriafase4.png')";
+    elem.style.backgroundImage = "url('./img/mago/vitoriafase4.png')";
     setTimeout(function () {
         setTimeout(function () {
             escolha1 = alert("Parabéns, você conseguiu salvar o mundo!!");
@@ -133,7 +133,7 @@ function magogameover1() {
 // Inicio da Fase 2 ////////
 function magoFase2() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/fase1norte.png')";
+    elem.style.backgroundImage = "url('./img/mago/fase1norte.png')";
     setTimeout(function () {
         escolha1 = prompt("Escolha uma das opções.");
         if (escolha1 == 1) {
@@ -152,7 +152,7 @@ function magoFase2() {
 // Caminho vitoria / fase 2
 function magofase2b() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/fase4.png')";
+    elem.style.backgroundImage = "url('./img/mago/fase4.png')";
     setTimeout(function () {
         setTimeout(function () {
             escolha1 = alert("Avançar");
@@ -164,7 +164,7 @@ function magofase2b() {
 }
 function magofase2c() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/fase4.0.png')";
+    elem.style.backgroundImage = "url('./img/mago/fase4.0.png')";
     setTimeout(function () {
         setTimeout(function () {
             escolha1 = alert("Você precisa derrotar os Reptilianos para poder desativar a bomba, Clique em Ok 20 vezes para derrotá-los.");
@@ -176,7 +176,7 @@ function magofase2c() {
 }
 function magofase2d() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/fase4.1.png')";
+    elem.style.backgroundImage = "url('./img/mago/fase4.1.png')";
     setTimeout(function () {
         setTimeout(function () {
             combate()
@@ -187,7 +187,7 @@ function magofase2d() {
 }
 function combate() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/fase4.1.png')";
+    elem.style.backgroundImage = "url('./img/mago/fase4.1.png')";
     setTimeout(function () {
         setTimeout(function () {
             while (educar < 20) {
@@ -202,7 +202,7 @@ function combate() {
 }
 function magofase2vitoria() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/vitoriafase4.png')";
+    elem.style.backgroundImage = "url('./img/mago/vitoriafase4.png')";
     setTimeout(function () {
         setTimeout(function () {
             alert("Você salvou o mundo.");
@@ -215,7 +215,7 @@ function magofase2vitoria() {
 // Caminho gamer over. / fase 2
 function magofase2a() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/fase3.0.png')";
+    elem.style.backgroundImage = "url('./img/mago/fase3.0.png')";
     setTimeout(function () {
         setTimeout(function () {
             combate2a()
@@ -226,7 +226,7 @@ function magofase2a() {
 }
 function combate2a() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/fase3.0.png')";
+    elem.style.backgroundImage = "url('./img/mago/fase3.0.png')";
     setTimeout(function () {
         setTimeout(function () {
             while (educar < 100) {
@@ -240,7 +240,7 @@ function combate2a() {
 }
 function magogameover2a() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/mago/gameover2.png')";
+    elem.style.backgroundImage = "url('./img/mago/gameover2.png')";
     setTimeout(function () {
         escolha1 = alert("Você morreu, Aperte f5 para voltar.");
         location.reload();
