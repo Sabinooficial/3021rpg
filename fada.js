@@ -6,7 +6,7 @@ function fadaDaVerdade() {
     setTimeout(function () {
         escolha1 = alert("Clique em ok para avançar.");
         fadaFaseincial()
-    }, 800)
+    }, 1500)
 }
 // Começo do jogo.
 function fadaFaseincial() {
@@ -17,15 +17,15 @@ function fadaFaseincial() {
         if (escolha1 == 1) {
             setTimeout(function () {
                 fadaFase0b()
-            }, 800)
+            }, 1500)
         }
         else if (escolha1 == 2) {
             setTimeout(function () {
                 fadaFase2()
-            }, 800)
+            }, 1500)
         }
 
-    }, 800)
+    }, 1500)
 }
 ///
 ///
@@ -41,15 +41,15 @@ function fadaFase0b() {
         if (escolha1 == 1) {
             setTimeout(function () {
                 fadagameover1()
-            }, 800)
+            }, 1500)
         }
         else if (escolha1 == 2) {
             setTimeout(function () {
                 fadafase1b()
-            }, 800)
+            }, 1500)
         }
 
-    }, 800)
+    }, 1500)
 }
 // Caminho vitoria / fase 1
 function fadafase1b() {
@@ -59,10 +59,10 @@ function fadafase1b() {
         setTimeout(function () {
             escolha1 = alert("Avançar");
             fadafase1c()
-        }, 800)
+        }, 1500)
 
 
-    }, 800)
+    }, 1500)
 }
 function fadafase1c() {
     elem = document.querySelector('#pagFase');
@@ -71,10 +71,10 @@ function fadafase1c() {
         setTimeout(function () {
             escolha1 = alert("Você precisa derrotar os Reptilianos para poder desativar a bomba, Clique em Ok 20 vezes para derrotá-los.");
             magofase1d()
-        }, 800)
+        }, 1500)
 
 
-    }, 800)
+    }, 1500)
 }
 function fadafase1d() {
     elem = document.querySelector('#pagFase');
@@ -82,10 +82,10 @@ function fadafase1d() {
     setTimeout(function () {
         setTimeout(function () {
             combatemagia()
-        }, 800)
+        }, 1500)
 
 
-    }, 800)
+    }, 1500)
 }
 function combatemagia() {
     elem = document.querySelector('#pagFase');
@@ -99,8 +99,8 @@ function combatemagia() {
             }
             alert("Você derrotou os Reptlianos com sucesso.");
             fadafase1vitoria()
-        }, 800)
-    }, 800)
+        }, 1500)
+    }, 1500)
 }
 function fadafase1vitoria() {
     elem = document.querySelector('#pagFase');
@@ -109,10 +109,10 @@ function fadafase1vitoria() {
         setTimeout(function () {
             escolha1 = alert("Parabéns, você conseguiu salvar o mundo!!");
             location.reload();
-        }, 800)
+        }, 1500)
 
 
-    }, 800)
+    }, 1500)
 }
 // Final vitoria / fase 1
 
@@ -123,7 +123,7 @@ function fadagameover1() {
     setTimeout(function () {
         escolha1 = alert("Você morreu, Aperte f5 para voltar.");
                 location.reload();
-    }, 800)
+    }, 1500)
 }
 // Final gamer over. / fase 1
 ///
@@ -140,15 +140,15 @@ function fadaFase2() {
         if (escolha1 == 1) {
             setTimeout(function () {
                 fadafase2b()
-            }, 800)
+            }, 1500)
         }
         else if (escolha1 == 2) {
             setTimeout(function () {
                 fadafase2a()
-            }, 800)
+            }, 1500)
         }
 
-    }, 800)
+    }, 1500)
 }
 // Caminho vitoria / fase 2
 function fadafase2b() {
@@ -158,10 +158,10 @@ function fadafase2b() {
         setTimeout(function () {
             escolha1 = alert("Avançar");
             fadafase2c()
-        }, 800)
+        }, 1500)
 
 
-    }, 800)
+    }, 1500)
 }
 function fadafase2c() {
     elem = document.querySelector('#pagFase');
@@ -170,10 +170,10 @@ function fadafase2c() {
         setTimeout(function () {
             escolha1 = alert("Você precisa derrotar os Reptilianos para poder desativar a bomba, Clique em Ok 20 vezes para derrotá-los.");
             fadafase2d()
-        }, 800)
+        }, 1500)
 
 
-    }, 800)
+    }, 1500)
 }
 function fadafase2d() {
     elem = document.querySelector('#pagFase');
@@ -181,10 +181,10 @@ function fadafase2d() {
     setTimeout(function () {
         setTimeout(function () {
             fadacombate()
-        }, 800)
+        }, 1500)
 
 
-    }, 800)
+    }, 1500)
 }
 function fadacombate() {
     elem = document.querySelector('#pagFase');
@@ -198,8 +198,8 @@ function fadacombate() {
             }
             alert("Você derrotou os Reptlianos com sucesso.");
             fadafase2vitoria()
-        }, 800)
-    }, 800)
+        }, 1500)
+    }, 1500)
 }
 function fadafase2vitoria() {
     elem = document.querySelector('#pagFase');
@@ -208,8 +208,8 @@ function fadafase2vitoria() {
         setTimeout(function () {
             alert("Você salvou o mundo.");
             location.reload();
-        }, 800)
-    }, 800)
+        }, 1500)
+    }, 1500)
 }
 // Final vitoria / fase 2
 
@@ -220,10 +220,10 @@ function fadafase2a() {
     setTimeout(function () {
         setTimeout(function () {
             fadacombate2a()
-        }, 800)
+        }, 1500)
 
 
-    }, 800)
+    }, 1500)
 }
 function fadacombate2a() {
     elem = document.querySelector('#pagFase');
@@ -236,8 +236,8 @@ function fadacombate2a() {
                 alert(educar);
             }
             fadagameover2a()
-        }, 800)
-    }, 800)
+        }, 1500)
+    }, 1500)
 }
 function fadagameover2a() {
     elem = document.querySelector('#pagFase');
@@ -245,6 +245,6 @@ function fadagameover2a() {
     setTimeout(function () {
         escolha1 = alert("Você matou o lobo, ele te ajudaria a salvar o mundo. Aperte f5 para voltar.");
         location.reload();
-    }, 800)
+    }, 1500)
 }
 // Final gamer over. / fase 2 - pronto
