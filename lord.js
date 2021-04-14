@@ -2,7 +2,7 @@
 
 function lordNey() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/lord.png')";
+    elem.style.backgroundImage = "url('./img/lord/lord.png')";
     setTimeout(function() {
         escolha1 = alert("Clique em ok para avançar.");
         lordFaseincial()
@@ -11,7 +11,7 @@ function lordNey() {
 // Começo do jogo.
 function lordFaseincial() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/fase1.png')";
+    elem.style.backgroundImage = "url('./img/lord/fase1.png')";
     setTimeout(function() {
         escolha1 = prompt("Escolha o seu caminho.");
         if (escolha1 == 1) {
@@ -34,7 +34,7 @@ function lordFaseincial() {
 // Inicio da Fase 1 
 function lordFase0b() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/fase1predios.png')";
+    elem.style.backgroundImage = "url('./img/lord/fase1predios.png')";
     setTimeout(function() {
         escolha1 = prompt("Escolha uma das opções.");
         if (escolha1 == 2) {
@@ -52,7 +52,7 @@ function lordFase0b() {
 // Caminho vitoria / fase 1
 function lordfase1b() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/fase4.png')";
+    elem.style.backgroundImage = "url('./img/lord/fase4.png')";
     setTimeout(function () {
         setTimeout(function () {
             escolha1 = alert("Avançar");
@@ -64,7 +64,7 @@ function lordfase1b() {
 }
 function lordfase1c() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/fase4.0.png')";
+    elem.style.backgroundImage = "url('./img/lord/fase4.0.png')";
     setTimeout(function () {
         setTimeout(function () {
             escolha1 = alert("Você precisa derrotar os Reptilianos para poder desativar a bomba, Clique em Ok 20 vezes para derrotá-los.");
@@ -76,7 +76,7 @@ function lordfase1c() {
 }
 function lordfase1d() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/fase4.0.png')";
+    elem.style.backgroundImage = "url('./img/lord/fase4.0.png')";
     setTimeout(function () {
         setTimeout(function () {
             combatemagia()
@@ -87,7 +87,7 @@ function lordfase1d() {
 }
 function combatemagia() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/fase4.1.png')";
+    elem.style.backgroundImage = "url('./img/lord/fase4.1.png')";
     setTimeout(function () {
         setTimeout(function () {
             while (educar < 20) {
@@ -102,7 +102,7 @@ function combatemagia() {
 }
 function lordfase1vitoria() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/vitoriafase4.png')";
+    elem.style.backgroundImage = "url('./img/lord/vitoriafase4.png')";
     setTimeout(function () {
         setTimeout(function () {
             escolha1 = alert("Parabéns, você conseguiu salvar o mundo!!");
@@ -117,7 +117,7 @@ function lordfase1vitoria() {
 // Caminho gamer over. / fase 1
 function lordgameover1() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/gameover1.png')";
+    elem.style.backgroundImage = "url('./img/lord/gameover1.png')";
     setTimeout(function() {
         escolha1 = alert("Você morreu, Aperte f5 para voltar.");
         location.reload();
@@ -132,7 +132,7 @@ function lordgameover1() {
 // Inicio da Fase 2 ////////
 function lordFase2() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/fase2.png')";
+    elem.style.backgroundImage = "url('./img/lord/fase2.png')";
     setTimeout(function() {
         escolha1 = prompt("Escolha uma das opções.");
         if (escolha1 == 1) {
@@ -150,7 +150,7 @@ function lordFase2() {
 // Caminho vitoria / fase 2
 function lordfase2b() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/fase4.png')";
+    elem.style.backgroundImage = "url('./img/lord/fase4.png')";
     setTimeout(function() {
         setTimeout(function() {
             escolha1 = alert("Avançar");
@@ -163,7 +163,7 @@ function lordfase2b() {
 
 function lordfase2c() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/fase4.0.png')";
+    elem.style.backgroundImage = "url('./img/lord/fase4.0.png')";
     setTimeout(function() {
         setTimeout(function() {
             escolha1 = alert("Você precisa educar o Reptilianos para poder desativar a bomba, Clique em Ok 20 vezes para educar eles.");
@@ -176,7 +176,7 @@ function lordfase2c() {
 
 function lordfase2d() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/fase4.1.png')";
+    elem.style.backgroundImage = "url('./img/lord/fase4.1.png')";
     setTimeout(function() {
         setTimeout(function() {
             lordCombate2()
@@ -188,7 +188,7 @@ function lordfase2d() {
 
 function lordCombate2() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/fase4.1.png')";
+    elem.style.backgroundImage = "url('./img/lord/fase4.1.png')";
     setTimeout(function() {
         setTimeout(function() {
             while (educar < 20) {
@@ -204,7 +204,7 @@ function lordCombate2() {
 
 function lordfase2vitoria() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/vitoriafase4.png')";
+    elem.style.backgroundImage = "url('./img/lord/vitoriafase4.png')";
     setTimeout(function() {
         setTimeout(function() {
             alert("Você salvou o mundo.");
@@ -218,7 +218,7 @@ function lordfase2vitoria() {
 // Caminho gamer over. / fase 2
 function lordfase2a() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/fase3.0.png')";
+    elem.style.backgroundImage = "url('./img/lord/fase3.0.png')";
     setTimeout(function() {
         setTimeout(function() {
             lordCombate2a()
@@ -230,7 +230,7 @@ function lordfase2a() {
 
 function lordCombate2a() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/fase2.0.png')";
+    elem.style.backgroundImage = "url('./img/lord/fase2.0.png')";
     setTimeout(function() {
         setTimeout(function() {
             while (educar < 20) {
@@ -245,7 +245,7 @@ function lordCombate2a() {
 
 function lordgameover2a() {
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('/img/lord/gameover2.png')";
+    elem.style.backgroundImage = "url('./img/lord/gameover2.png')";
     setTimeout(function() {
         escolha1 = alert("Você morreu, Aperte f5 para voltar.");
         location.reload();
