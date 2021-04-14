@@ -6,7 +6,7 @@ function magoDaEducacao() {
     setTimeout(function () {
         escolha1 = alert("Clique em ok para avançar.");
         magoFaseincial()
-    }, 800)
+    }, 1200)
 }
 // Começo do jogo.
 function magoFaseincial() {
@@ -17,15 +17,15 @@ function magoFaseincial() {
         if (escolha1 == 1) {
             setTimeout(function () {
                 magoFase0b()
-            }, 800)
+            }, 1200)
         }
         else if (escolha1 == 2) {
             setTimeout(function () {
                 magoFase2()
-            }, 800)
+            }, 1200)
         }
 
-    }, 800)
+    }, 1200)
 }
 ///
 ///
