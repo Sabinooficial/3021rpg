@@ -16,7 +16,7 @@ body {
     padding: auto;
     margin: 0;
     border: 0;
-    background-image: url(./img/inicio/Pg1.png) ; 
+    background-image: url(img/inicio/Pg1.png); 
     background-size: cover;
 }
 #pagFase2 {
@@ -26,7 +26,7 @@ body {
     padding: auto;
     margin: 0;
     border: 0;
-    background-image: url(./img/mago/gameover1.png) ; 
+    background-image: url(img/mago/gameover1.png); 
     background-size: cover;
 }
 #Start {
