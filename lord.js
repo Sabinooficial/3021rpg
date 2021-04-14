@@ -239,8 +239,8 @@ function lordCombate2a() {
                 alert(educar);
             }
             lordgameover2a()
-        }, 300)
-    }, 300)
+        }, 800)
+    }, 800)
 }
 
 function lordgameover2a() {
