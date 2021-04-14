@@ -7,7 +7,7 @@ function escolhaDePersona() {
     elem = document.querySelector('#Start')
     elem.style.display = ("none")
     elem = document.querySelector('#pagFase');
-    elem.style.backgroundImage = "url('./img/inicio/escolhadeps.png')";
+    elem.style.backgroundImage = "url('img/inicio/escolhadeps.png')";
     setTimeout(function () {
         while (true) {
             personagem = prompt("Escolha seu personagem digitando o numero correspondente.");
